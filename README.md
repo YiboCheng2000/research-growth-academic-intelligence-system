@@ -43,6 +43,40 @@
 
 **选入口 → 把仓库交给你的 AI / AI Agent → 让它逐问逐答完成配置 → 你确认 → 再部署。**
 
+<details>
+<summary><strong>不会配置？点这里，直接复制给你的 AI / AI Agent</strong></summary>
+
+```text
+我想使用这个 GitHub 项目：
+
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+项目名称：
+Research Growth & Academic Intelligence System
+
+请先判断你当前能否直接读取这个 GitHub 仓库。
+
+如果可以：
+1. 直接读取 README.md、00_BEGINNER_SETUP.md、
+   03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md、
+   04_PERSONALIZATION_WORKSHEET.md、
+   05_SOURCE_AND_EVIDENCE_POLICY.md、
+   06_CROSS_PLATFORM_ADAPTATION.md；
+2. 一次只问我一个问题，帮我完成个性化配置；
+3. 我不懂时给我2—3个例子或选项；
+4. 不要替我编造研究信息；
+5. 配置完成后先给我摘要确认；
+6. 我确认后，再生成最终可运行版本；
+7. 根据我使用的平台告诉我怎样部署。
+
+如果你不能读取 GitHub：
+请直接告诉我最少需要上传哪些文件，不要假装已经读取。
+
+请不要先输出大段解释，先从第一个配置问题开始。
+```
+
+</details>
+
 ---
 
 ## **01｜它解决什么问题？**
@@ -135,7 +169,10 @@
 ```text
 我想使用“Research Growth & Academic Intelligence System”。
 
-请先阅读这个仓库的 README、00_BEGINNER_SETUP、
+仓库地址：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+请直接读取这个仓库的 README、00_BEGINNER_SETUP、
 03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE、
 04_PERSONALIZATION_WORKSHEET 和 05_SOURCE_AND_EVIDENCE_POLICY。
 
