@@ -17,6 +17,13 @@
 > **→ [点这里看 00｜零基础配置指南](00_BEGINNER_SETUP.md)**  
 > 它会教你把仓库交给 **ChatGPT 或其他 AI / AI Agent**，让它 **一次只问一个问题 → 自动生成个性化配置 → 自动填好模板 → 帮你部署**。
 
+## **我是哪类用户？先选你的入口**
+
+| **我是 ChatGPT 用户** | **我是 Codex / Skill 用户** | **我是其他 AI / WorkBuddy 用户** |
+|---|---|---|
+| 想直接做个性化配置、创建 Scheduled Task、接收周期推送 | 想把这套工作流作为可版本管理的 Skill / Agent 工作流使用 | 使用 Claude、Gemini、WorkBuddy 或其他 AI / 深度研究代理 |
+| **[→ 点这里：ChatGPT 零基础配置](00_BEGINNER_SETUP.md)** | **[→ 点这里：Codex / Skill 起点](skill/SKILL.md)** | **[→ 点这里：跨平台适配指南](06_CROSS_PLATFORM_ADAPTATION.md)** |
+
 ---
 
 ## **01｜它解决什么问题？**
