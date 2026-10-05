@@ -332,7 +332,7 @@ skill/
 | 文件 | 用途 |
 |---|---|
 | [`00_BEGINNER_SETUP.md`](00_BEGINNER_SETUP.md) | **零基础用户：从这里开始，不需要手工改 Prompt** |
-| [`START_HERE.md`](START_HERE.md) | 项目完整介绍 |
+| [`START_HERE.md`](START_HERE.md) | 快速入口索引：不知道该点哪里时看这里 |
 | [`01_INTRODUCTION_FOR_SHARING.md`](01_INTRODUCTION_FOR_SHARING.md) | 可直接分享的项目介绍 |
 | [`02_QUICK_START_CHATGPT.md`](02_QUICK_START_CHATGPT.md) | ChatGPT 快速部署 |
 | [`03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md`](03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md) | 通用自动任务模板 |
