@@ -9,8 +9,10 @@ Required fields:
 - review_triggers
 - output_pool_A
 - output_pool_B
-- chinese_sources
-- international_sources
+- academic_ecosystem_strategy
+- local_or_chinese_sources
+- international_or_english_sources
+- other_language_or_region_sources
 - adjacent_fields
 - contradiction_keywords
 - methods_capability_pool
