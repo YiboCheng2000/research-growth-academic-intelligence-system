@@ -14,13 +14,13 @@ Before first use, obtain or infer only from explicit user-provided context:
 1. Research stage and current project.
 2. Frozen research boundaries that should not be casually changed.
 3. Up to three future output/research directions.
-4. Preferred Chinese and international sources.
+4. Preferred academic ecosystem: local/Chinese, international/English, other language/region sources, or a user-defined mix.
 5. Anti-filter-bubble / adjacent fields.
 6. Time budget and output cadence.
 7. Delivery preferences.
 8. Explicit feedback rules.
 
-If these are missing, use `references/PERSONALIZATION_SCHEMA.md`.
+If these are missing, use `references/PERSONALIZATION_SCHEMA.md`. Do not force a fixed Chinese/English ratio; source coverage should follow the user's discipline and research question.
 
 ## Operating modes
 
