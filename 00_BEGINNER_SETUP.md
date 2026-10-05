@@ -22,11 +22,16 @@
 
 ## 情况 1：你的 AI 可以直接读取 GitHub
 
-先把本仓库链接发给它，然后复制：
+**只复制下面这一段即可，仓库链接已经替你填好：**
 
 ```text
 我想使用这个 GitHub 仓库中的
 “Research Growth & Academic Intelligence System”。
+
+仓库地址：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+请直接读取这个仓库，不需要再让我单独复制链接。
 
 请先阅读仓库中与配置有关的文件，至少包括：
 - README.md
@@ -90,7 +95,7 @@ L. 我使用的 AI 平台是否支持定时任务、文件、浏览器、邮件�
 
 ## 情况 2：你的 AI 不能读取 GitHub
 
-把下面这些文件下载后上传给它：
+先把下面这些文件下载后上传给它，然后**只复制一段指令**即可：
 
 1. `00_BEGINNER_SETUP.md`
 2. `03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md`
@@ -98,7 +103,26 @@ L. 我使用的 AI 平台是否支持定时任务、文件、浏览器、邮件�
 4. `05_SOURCE_AND_EVIDENCE_POLICY.md`
 5. `06_CROSS_PLATFORM_ADAPTATION.md`
 
-然后发送上面同一段“通用配置指令”。
+上传后直接发送：
+
+```text
+我已经上传了“Research Growth & Academic Intelligence System”的配置文件。
+
+原始仓库地址（仅供你理解项目来源；如果你无法访问 GitHub，不必打开）：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+请根据我上传的文件完成个性化配置。
+一次只问我一个问题；我不懂时给我例子或选项。
+不要替我编造研究信息。
+
+全部问题问完后：
+1. 先给我个性化配置摘要；
+2. 区分“我的明确选择”和“你的建议”；
+3. 等我确认；
+4. 自动填好模板；
+5. 检查是否还有 {{...}}；
+6. 根据我使用的平台给出部署方式。
+```
 
 如果你嫌文件多，最低限度上传：
 
@@ -347,14 +371,18 @@ Gate 6 审计
 
 # H｜如果你还是不知道怎么开始
 
-只发这一段也可以：
+只发这一段也可以。仓库地址已经写进去了：
 
 ```text
 我完全不会配置这个仓库。
 
-请先阅读它的 README、00_BEGINNER_SETUP、
+仓库地址：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+如果你能读取 GitHub，请直接阅读它的 README、00_BEGINNER_SETUP、
 03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE、
 04_PERSONALIZATION_WORKSHEET 和 05_SOURCE_AND_EVIDENCE_POLICY。
+如果你不能读取 GitHub，请先告诉我需要上传哪些文件。
 
 然后从第一个问题开始，一次只问我一个问题。
 我不懂的时候请给例子或选项。
