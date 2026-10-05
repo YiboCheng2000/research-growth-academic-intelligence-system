@@ -93,33 +93,151 @@
 
 ---
 
-## **06｜怎么个性化？**
+## **06｜怎么个性化？新手不需要手工改 Prompt**
 
-不要直接照搬别人的主题。先填写 [`04_PERSONALIZATION_WORKSHEET.md`](04_PERSONALIZATION_WORKSHEET.md)，至少定义：
+如果你是第一次使用，**不要直接打开 9000 字模板逐个找 `{{...}}` 替换**。
 
-- **你的身份与阶段**
-- **当前研究主题与不能轻易改动的边界**
-- **未来 1–2 个潜在成果方向**
-- **中文与英文来源池**
-- **希望主动避免的信息茧房方向**
-- **每周可投入时间**
-- **输出长度与推送频率**
-- **是否需要邮件/通知**
-- **哪些明确反馈可以影响后续推荐权重**
+最推荐的方法是：
 
-然后把配置填入 [`03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md`](03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md)。
+> **让 ChatGPT 先采访你 → 生成配置摘要 → 你确认 → AI 自动填好模板。**
+
+### **最省事的方式**
+
+直接把下面这段发给 ChatGPT：
+
+```text
+我想使用“Research Growth & Academic Intelligence System”。
+
+请不要立刻生成最终提示词。
+请像做访谈一样帮我完成个性化配置，一次只问我一个问题。
+
+你需要问清楚：
+1. 我现在是什么阶段；
+2. 当前最重要的研究/学习任务；
+3. 当前研究题目或核心问题；
+4. 哪些研究设计已经基本确定；
+5. 未来可能形成哪些独立成果；
+6. 最想追踪哪些中文和英文来源；
+7. 最担心形成哪种信息茧房；
+8. 最想补哪些方法、统计、AI或数据能力；
+9. 每周能投入多少时间；
+10. 希望通过什么方式收到结果。
+
+如果我不知道怎么回答，请给我2—3个简单例子。
+不要替我编造研究信息。
+
+全部问完后：
+A. 先给我“个性化配置摘要”确认；
+B. 我确认后，再把这些信息自动填入
+   03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md；
+C. 检查是否还残留任何 {{...}}；
+D. 最后输出可直接创建 Scheduled Task 的最终提示词。
+```
+
+完整的零基础教程见：
+
+### **→ [00_BEGINNER_SETUP.md｜零基础配置指南](00_BEGINNER_SETUP.md)**
+
+### **什么叫“替换占位符”？**
+
+例如模板里写：
+
+```text
+当前研究主题：
+{{当前研究题目/问题}}
+```
+
+如果你的研究是：
+
+```text
+大学生使用生成式人工智能写作反馈的采纳行为
+```
+
+最终就变成：
+
+```text
+当前研究主题：
+大学生使用生成式人工智能写作反馈的采纳行为
+```
+
+`{{...}}` 只是“这里需要填你自己的信息”的标记，**最终 Prompt 里不应该再留下这些占位符**。
+
+### **哪些内容要改，哪些不要改？**
+
+**必须改成你自己的：**
+
+- 研究题目 / 核心问题
+- 已经稳定的研究边界
+- 后续成果方向
+- 中文 / 英文来源池
+- 方法与技能学习方向
+- 时间预算
+- 推送方式
+
+**新手建议先不要动：**
+
+- Claim–Evidence Gate
+- Contradiction Search
+- 去重规则
+- Evidence Status
+- Outside the thesis
+- 每月信息覆盖审计
+- “相关 ≠ 因果”
+- “找到论文 ≠ 读过全文”
+- “宁缺毋滥”
+
+这些是系统的核心骨架。
 
 ---
 
 ## **07｜怎么使用？**
 
-### **ChatGPT 用户**
+### **ChatGPT 用户｜推荐新手路线**
 
-1. 填写 [`04_PERSONALIZATION_WORKSHEET.md`](04_PERSONALIZATION_WORKSHEET.md)。
-2. 用你的配置替换 [`03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md`](03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md) 中的占位符。
-3. 在支持 Scheduled Tasks 的 ChatGPT 环境中创建周一、周三、周五任务。
-4. 如需邮件发送，可连接账号支持的邮件应用；**只有接口返回成功时才能声称“已发送”**。
-5. 连续运行 **2–4 周** 后，用 [`07_GATE6_AUDIT_PROTOCOL.md`](07_GATE6_AUDIT_PROTOCOL.md) 做一次真实效果审计。
+最简单只需要 4 步：
+
+**第 1 步：让 ChatGPT 采访你**
+
+按照 [`00_BEGINNER_SETUP.md`](00_BEGINNER_SETUP.md) 中的“逐问逐答”提示词，让 ChatGPT 一次只问一个问题。
+
+**第 2 步：让 ChatGPT 自动生成最终 Prompt**
+
+你不需要自己修改模板。让 AI 根据你的回答自动填写 [`03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md`](03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md)，并检查所有 `{{...}}` 是否已经处理。
+
+如果你喜欢自己填写，也可以先完成 [`04_PERSONALIZATION_WORKSHEET.md`](04_PERSONALIZATION_WORKSHEET.md)，再把它和模板一起交给 ChatGPT。
+
+**第 3 步：创建 Scheduled Task**
+
+拿到最终 Prompt 后，直接告诉 ChatGPT：
+
+```text
+请基于这份最终提示词创建自动任务。
+
+周一运行“方法与能力”；
+周三运行“研究与发表精读”；
+周五运行“学术情报周报”。
+
+运行时间：周一、周三、周五 19:00。
+时区：Asia/Shanghai。
+
+如果当前账号不支持直接创建，请不要假装创建成功，
+而是告诉我应该在哪里设置。
+```
+
+时间和时区当然可以改成你自己的。
+
+**第 4 步：先运行，再优化**
+
+不要第一天就反复改 Prompt。
+
+先运行 **2–4 周**，再用 [`07_GATE6_AUDIT_PROTOCOL.md`](07_GATE6_AUDIT_PROTOCOL.md) 检查：
+
+- 有没有重复；
+- 有没有把摘要当全文；
+- 中文来源是否真的覆盖；
+- 是否形成信息茧房；
+- 输出是否太长；
+- 是否真正帮助你的研究。
 
 更短的部署说明见 [`02_QUICK_START_CHATGPT.md`](02_QUICK_START_CHATGPT.md)。
 
@@ -168,7 +286,8 @@ skill/
 
 | 文件 | 用途 |
 |---|---|
-| [`START_HERE.md`](START_HERE.md) | 从这里开始 |
+| [`00_BEGINNER_SETUP.md`](00_BEGINNER_SETUP.md) | **零基础用户：从这里开始，不需要手工改 Prompt** |
+| [`START_HERE.md`](START_HERE.md) | 项目完整介绍 |
 | [`01_INTRODUCTION_FOR_SHARING.md`](01_INTRODUCTION_FOR_SHARING.md) | 可直接分享的项目介绍 |
 | [`02_QUICK_START_CHATGPT.md`](02_QUICK_START_CHATGPT.md) | ChatGPT 快速部署 |
 | [`03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md`](03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md) | 通用自动任务模板 |
