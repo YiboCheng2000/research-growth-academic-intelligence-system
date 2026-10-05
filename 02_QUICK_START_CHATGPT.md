@@ -31,7 +31,7 @@ README.md、00_BEGINNER_SETUP.md、
 不要替我编造信息。
 
 问完后先给我一份配置摘要确认；
-我确认以后，再自动生成最终 Scheduled Task Prompt。
+我确认以后，再自动生成最终 定时任务（Scheduled Task）提示词。
 ```
 
 更完整的采访问题见 `00_BEGINNER_SETUP.md`。
@@ -59,12 +59,12 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 3. 必要信息缺失时先问我；
 4. 不删除证据核验、反证、去重、Outside the thesis 等核心规则；
 5. 最后检查是否仍有 {{...}}；
-6. 输出一份可以直接用于 Scheduled Task 的最终 Prompt。
+6. 输出一份可以直接用于 Scheduled Task 的最终提示词（Prompt）。
 ```
 
 ### 第 3 步：创建任务
 
-得到最终 Prompt 后继续说：
+得到最终提示词（Prompt） 后继续说：
 
 ```text
 请基于这份最终提示词创建自动任务。
@@ -96,7 +96,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 - 当前阶段
 - 核心研究边界
 - 未来成果方向
-- 中文/英文来源
+- 学术生态与来源池（中文/本地、国际/英文或其他语言地区）
 - 反证方向
 - 方法与技能目标
 - 推送时间
@@ -126,7 +126,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 大学生使用生成式人工智能写作反馈的采纳行为
 ```
 
-最终 Prompt 中原则上不应该保留 `{{...}}`。
+最终提示词（Prompt） 中原则上不应该保留 `{{...}}`。
 
 ### 第 3 步：保留系统骨架
 
