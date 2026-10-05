@@ -1,7 +1,24 @@
 # 研究成长与学术情报系统｜ChatGPT 自动任务模板
 
-> 使用前先填写 `04_PERSONALIZATION_WORKSHEET.md`。
-> 将所有 `{{...}}` 替换为自己的信息。
+> **新手不需要手工替换占位符。**
+>
+> 直接把下面这段复制给你的 AI / AI Agent：
+
+```text
+请读取这个仓库：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+请根据 00_BEGINNER_SETUP.md、04_PERSONALIZATION_WORKSHEET.md
+和本文件 03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md，
+一次只问我一个问题完成个性化。
+
+最后自动替换全部 {{...}}，
+检查是否仍有遗漏，
+并输出可直接运行的最终版本。
+不要替我编造信息。
+```
+
+如果你选择手动配置，再填写 `04_PERSONALIZATION_WORKSHEET.md`，并将所有 `{{...}}` 替换为自己的信息。
 
 ## 0. 系统定位
 
