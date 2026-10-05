@@ -27,7 +27,7 @@
 1. Weekly judgment
 2. 0–5 new high-value studies
 3. Research-output mapping
-4. Chinese academic ecosystem
+4. Academic ecosystem (configured local/Chinese, international/English, or other language/region sources)
 5. Conferences / CFP / Special Issues
 6. Outside the core (0–1)
 7. Best 1–2 deep reads
