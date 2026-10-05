@@ -1,0 +1,13 @@
+{
+  "name": "Research Growth & Academic Intelligence System",
+  "version": "1.0.0",
+  "date": "2026-10-05",
+  "release_status": "stable",
+  "privacy_status": "public-sanitized",
+  "release_gate": "PASS",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "attribution": "Research Growth & Academic Intelligence System contributors",
+  "notes": "Public v1.0.0. Personal identifiers, private email addresses, unpublished user-specific research details, account-linked IDs, and user-linked branding were removed or generalized. Product-capability claims are written with availability caveats and should be rechecked against current platform documentation over time.",
+  "entrypoint": "README.md"
+}
