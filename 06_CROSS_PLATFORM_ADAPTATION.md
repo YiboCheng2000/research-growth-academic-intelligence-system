@@ -23,7 +23,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# 一、ChatGPT 用户
+## 一、ChatGPT 用户
 
 ## 最省事：直接复制下面这段
 
@@ -68,7 +68,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# 二、Codex / Skill 用户
+## 二、Codex / Skill 用户
 
 ## 先说明：Skill 和定时任务不是一回事
 
@@ -138,7 +138,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# 三、WorkBuddy / 深度研究代理
+## 三、WorkBuddy / 深度研究代理
 
 > “WorkBuddy”可能对应不同产品。本仓库不声称和某个具体 WorkBuddy 产品存在官方集成。这里指能够执行多步骤网页研究、文件处理或长任务的 AI Agent。
 
@@ -192,7 +192,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# 四、Claude / Gemini / 其他 AI
+## 四、Claude / Gemini / 其他 AI
 
 ## 如果你的 AI 能读取 GitHub
 
@@ -236,7 +236,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# 五、不同使用习惯怎么改
+## 五、不同使用习惯怎么改
 
 ## 轻量用户
 
@@ -289,7 +289,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# 六、跨平台时不要照搬什么？
+## 六、跨平台时不要照搬什么？
 
 以下内容必须按平台能力改：
 
