@@ -1,0 +1,36 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+credentials.*
+secrets.*
+*.key
+*.pem
+
+# Private/local personalization
+PRIVATE_PROFILE.md
+PERSONALIZATION_PRIVATE.md
+personalization.local.md
+profile.private.*
+personalization.private.*
+*.private.md
+*.local.md
+private/
+local/
+
+# Generated/private outputs and exports
+output/
+outputs/
+reports/private/
+exports/
+mail/
+mail_exports/
+email_exports/
+*.mbox
+*.eml
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
