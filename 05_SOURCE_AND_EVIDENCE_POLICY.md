@@ -1,5 +1,19 @@
 # 来源与证据政策
 
+> **只想把这套证据规则加入你现有的 AI 工作流？直接复制：**
+
+```text
+请读取这个仓库：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+请把 05_SOURCE_AND_EVIDENCE_POLICY.md
+作为我后续学术检索与文献总结的强制质量规则。
+
+不要因为其他提示词更长就忽略这些规则。
+如果你的工具无法访问某个来源，明确报告覆盖限制。
+如果只有摘要，不要写成已读全文。
+```
+
 这份文件可以单独交给任何 AI 作为“学术检索质量规则”。
 
 ## 1. 发现源不等于证据源
