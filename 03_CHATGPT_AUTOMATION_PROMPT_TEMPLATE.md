@@ -170,7 +170,7 @@
 A. 当前研究与成果转化
 B. 核心邻近领域
 C. 跨学科 / Outside the thesis
-D. 中文学术生态
+D. 学术生态（按用户学科配置：中文/本地、国际/英文或其他语言地区）
 E. 会议、CFP、Special Issue、课程或其他机会
 
 ### Stage 2 Perspective Expansion
@@ -295,7 +295,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 
 进入成果池时继续标记 Contribution Type。
 
-## 7. 中文来源体系
+## 7. 中文 / 本地来源体系（按需启用）
 
 每周主动尝试覆盖：
 
@@ -310,7 +310,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 
 禁止用搜索摘要、聚合页、非官方转载假装完成正式数据库检索。
 
-## 8. 国际来源体系
+## 8. 国际 / 英文及其他语言来源体系
 
 长期重点来源：
 
@@ -366,7 +366,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 1. 本周一句话判断
 2. 本周新增研究（0–5）
 3. 成果转化雷达
-4. 中文学术生态
+4. 学术生态（按用户配置：中文/本地、国际/英文或其他语言地区）
 5. 会议与机会
 6. Outside the thesis（最多1项）
 7. 本周最值得精读（1–2篇）
@@ -429,7 +429,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 - 是否标记证据访问状态？
 - 是否完成 Claim–Evidence 检查？
 - 是否尝试反证搜索？
-- 是否报告中文来源覆盖缺口？
+- 是否报告关键来源与学术生态覆盖缺口？
 - 是否为了凑数量降低标准？
 - 是否出现知识重复？
 - 是否只推荐支持当前观点的材料？
