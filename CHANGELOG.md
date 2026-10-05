@@ -12,6 +12,11 @@ First public release.
 - Added Gate-6 audit protocol for 2–4 weeks of real use.
 - Added `DISCLAIMER.md`, `THIRD_PARTY_NOTICES.md`, `CONTRIBUTING.md`, `SECURITY.md`, and privacy guidance.
 - Added GitHub issue templates.
+- Added Chinese-first onboarding for ChatGPT, Codex / Skill, WorkBuddy-style agents, and other AI platforms.
+- Added copy-ready prompts with the repository URL embedded, reducing repeated copy/paste steps.
+- Redesigned the beginner guide with a one-copy setup path, collapsible advanced sections, and clearer heading hierarchy.
+- Made academic-ecosystem coverage discipline-aware instead of assuming a fixed Chinese/English balance.
+- Localized the Skill configuration, personalization schema, and output templates to Chinese.
 - Selected **CC BY 4.0** for repository-authored documentation, prompts, templates, and Skill instructions.
 - Added `LICENSE`, `ATTRIBUTION.md`, release notes, and publication checklist.
 
