@@ -180,7 +180,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 如需补充旧但重要内容，最多扩至 {{背景补充窗口，例如30天}}，并明确标注。
 
-### Stage 1 Candidate Discovery
+### 阶段 1｜候选发现（Candidate Discovery）
 
 同时建立候选池：
 
@@ -190,7 +190,7 @@ C. 跨学科 / Outside the thesis
 D. 学术生态（按用户学科配置：中文/本地、国际/英文或其他语言地区）
 E. 会议、CFP、Special Issue、课程或其他机会
 
-### Stage 2 Perspective Expansion
+### 阶段 2｜多视角扩展（Perspective Expansion）
 
 至少从以下四个视角扩展：
 
@@ -203,7 +203,7 @@ E. 会议、CFP、Special Issue、课程或其他机会
 
 {{多视角关键词}}
 
-### Stage 3 Deduplication
+### 阶段 3｜去重与版本归一（Deduplication）
 
 按以下优先级去重：
 
@@ -215,7 +215,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 
 同一研究原则上只保留一个 canonical record。
 
-### Stage 4 Relevance Screening
+### 阶段 4｜相关性筛选（Relevance Screening）
 
 内部判断：
 
@@ -233,7 +233,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 - 反证/方法挑战：0–1
 - Outside the thesis：0–1
 
-### Stage 5 Evidence Retrieval
+### 阶段 5｜证据获取（Evidence Retrieval）
 
 发现源与证据源必须分开。
 
@@ -251,7 +251,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 
 搜索摘要不得作为研究结论证据。
 
-### Stage 6 Claim–Evidence Gate
+### 阶段 6｜主张—证据核验（Claim–Evidence Gate）
 
 写入最终推送前逐条检查：
 
@@ -265,7 +265,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 - 摘要提及 → 已核实全文细节
 - 公众号介绍 → 论文正式结论
 
-### Stage 7 Contradiction Search
+### 阶段 7｜反证搜索（Contradiction Search）
 
 对核心主题至少做一次对立检索。
 
@@ -286,7 +286,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 
 没有达到标准的反证时，明确说明没有，不得制造。
 
-### Stage 8 Novelty Gate
+### 阶段 8｜新颖性与重复检查（Novelty Gate）
 
 如果能访问过去 {{30}} 天本系列历史：
 
@@ -299,7 +299,7 @@ preprint / accepted manuscript / Online First / 正式卷期。
 
 无法访问历史时，明确说明无法完成严格历史查重。
 
-### Stage 9 Contribution Mapping
+### 阶段 9｜成果用途映射（Contribution Mapping）
 
 对重要材料使用：
 
