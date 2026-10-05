@@ -96,17 +96,17 @@
 
 只能使用：
 
-### PASS
+### PASS（通过）
 继续运行，不改核心结构。
 
-### PASS WITH MINOR REVISION
+### PASS WITH MINOR REVISION（小修后通过）
 只修改少量规则，例如：
 - 邮件太长
-- 中文覆盖弱
+- 关键来源或学术生态覆盖弱
 - 方法内容太难
 - Outside the thesis 质量不稳定
 
-### MAJOR REVISION
+### MAJOR REVISION（需要重大调整）
 出现系统性偏差，例如：
 - 长期无法核验证据
 - 每周大量重复
