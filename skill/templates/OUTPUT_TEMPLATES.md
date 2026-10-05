@@ -1,40 +1,70 @@
-# Output Templates
+# 输出模板
 
-## Monday
+> 以下模板全部使用中文展示。专业名词、论文原题、期刊名可保留原文。
 
-1. Why this matters now
-2. Core concept
-3. Example in the user's research
-4. What it can / cannot answer
-5. One core reading
-6. One 10–20 minute exercise
+如果你想让 AI 直接按这些模板执行，可以复制：
 
-## Wednesday
+```text
+请读取这个仓库：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
-1. Metadata + access status
-2. Why this paper is worth reading
-3. Actual research question
-4. Data / sample / unit of analysis
-5. Design
-6. Core findings
-7. Why this is an independent paper
-8. Paper structure
-9. User-specific contribution tags
-10. What should not be copied directly
+请使用：
+skill/templates/OUTPUT_TEMPLATES.md
 
-## Friday
+根据今天对应的周一 / 周三 / 周五模式输出。
+同时遵守 skill/references/SOURCE_POLICY.md。
+如果无法访问某个来源，请明确说明，不要假装覆盖成功。
+```
 
-1. Weekly judgment
-2. 0–5 new high-value studies
-3. Research-output mapping
-4. Academic ecosystem (configured local/Chinese, international/English, or other language/region sources)
-5. Conferences / CFP / Special Issues
-6. Outside the core (0–1)
-7. Best 1–2 deep reads
-8. Research-change gate
-9. One action only
+---
 
-Research-change gate:
-- No adjustment
-- Watch
-- Review recommended
+## 周一｜方法与能力
+
+1. **为什么现在值得学**
+2. **核心概念**
+3. **放进用户研究中的例子**
+4. **能回答什么 / 不能回答什么**
+5. **1 份核心阅读**
+6. **1 个 10–20 分钟练习**
+
+---
+
+## 周三｜研究与发表精读
+
+1. **文献信息 + 证据访问状态**
+2. **为什么值得读**
+3. **真正的研究问题**
+4. **数据 / 样本 / 分析单位**
+5. **研究设计**
+6. **核心发现**
+7. **为什么它能独立成文**
+8. **论文结构拆解**
+9. **与用户研究 / 成果池的关系**
+10. **不可直接照搬之处**
+
+---
+
+## 周五｜学术情报周报
+
+1. **本周一句话判断**
+2. **本周新增高价值研究（0–5）**
+3. **成果转化雷达**
+4. **学术生态**
+   - 按用户配置覆盖中文/本地、国际/英文或其他语言地区来源
+5. **会议 / CFP / Special Issue / 其他机会**
+6. **Outside the thesis（0–1）**
+7. **本周最值得精读（1–2）**
+8. **当前研究变化闸门**
+9. **本周唯一行动**
+
+### 研究变化闸门
+
+只能使用：
+
+- 【无需调整】
+- 【值得留意】
+- 【建议复核】
+
+默认：
+
+**【无需调整】**
