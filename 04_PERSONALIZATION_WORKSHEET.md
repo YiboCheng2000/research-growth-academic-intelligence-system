@@ -1,5 +1,23 @@
 # 个性化配置表
 
+> **不知道怎么填？不要硬填。直接复制下面这段给你的 AI / AI Agent：**
+
+```text
+请读取这个仓库：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+请使用 04_PERSONALIZATION_WORKSHEET.md 作为访谈提纲。
+一次只问我一个问题。
+我不知道怎么回答时，给我2—3个例子或选项。
+不要替我编造信息。
+
+所有问题问完后：
+1. 生成一份填写完成的个性化配置表；
+2. 标明哪些是我的明确选择，哪些是你的建议；
+3. 等我确认；
+4. 再用于生成最终 Prompt / Skill 配置。
+```
+
 > 建议先填写，再生成自己的自动任务。
 
 ## 1. 我的阶段
