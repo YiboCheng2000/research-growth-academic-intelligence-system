@@ -18,9 +18,9 @@
 
 ---
 
-# A｜如果你完全不懂怎么配置：把下面这段发给你的 AI / AI Agent
+## A｜如果你完全不懂怎么配置：把下面这段发给你的 AI / AI Agent
 
-## 情况 1：你的 AI 可以直接读取 GitHub
+### 情况 1：你的 AI 可以直接读取 GitHub
 
 **只复制下面这一段即可，仓库链接已经替你填好：**
 
@@ -93,7 +93,7 @@ L. 我使用的 AI 平台是否支持定时任务、文件、浏览器、邮件�
 
 ---
 
-## 情况 2：你的 AI 不能读取 GitHub
+### 情况 2：你的 AI 不能读取 GitHub
 
 先把下面这些文件下载后上传给它，然后**只复制一段指令**即可：
 
@@ -136,11 +136,11 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# B｜什么叫“个性化”？
+## B｜什么叫“个性化”？
 
 这套系统里有两类内容。
 
-## 需要换成你自己的内容
+### 需要换成你自己的内容
 
 | 类型 | 例子 |
 |---|---|
@@ -153,7 +153,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 | **时间预算** | 每周几次、每次多久 |
 | **交付方式** | ChatGPT 通知、邮件、手动运行、其他 Agent |
 
-## 建议先不要改的“系统骨架”
+### 建议先不要改的“系统骨架”
 
 这些负责控制质量：
 
@@ -173,7 +173,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# C｜什么叫“替换占位符”？
+## C｜什么叫“替换占位符”？
 
 模板中会出现：
 
@@ -189,20 +189,20 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 例如：
 
-### 模板原文
+#### 模板原文
 
 ```text
 当前研究主题：
 {{当前研究题目/问题}}
 ```
 
-### 你的信息
+#### 你的信息
 
 ```text
 大学生使用生成式人工智能写作反馈的采纳行为
 ```
 
-### 最终版本
+#### 最终版本
 
 ```text
 当前研究主题：
@@ -226,7 +226,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# D｜如果你已经填写了配置表，让 AI 自动填模板
+## D｜如果你已经填写了配置表，让 AI 自动填模板
 
 把：
 
@@ -255,7 +255,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# E｜怎样选择“学术生态”？
+## E｜怎样选择“学术生态”？
 
 这是很多新手最容易困惑的地方。
 
@@ -303,7 +303,7 @@ https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
 ---
 
-# F｜怎样创建自动任务？
+## F｜怎样创建自动任务？
 
 如果你使用 ChatGPT，并且当前账号支持 Scheduled Tasks，可以在最终 Prompt 确认后告诉它：
 
@@ -339,7 +339,7 @@ Asia/Shanghai。
 
 ---
 
-# G｜完整的新手路线
+## G｜完整的新手路线
 
 ```text
 打开仓库
@@ -369,7 +369,7 @@ Gate 6 审计
 
 ---
 
-# H｜如果你还是不知道怎么开始
+## H｜如果你还是不知道怎么开始
 
 只发这一段也可以。仓库地址已经写进去了：
 
