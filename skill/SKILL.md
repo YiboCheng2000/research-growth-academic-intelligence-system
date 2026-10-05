@@ -1,88 +1,197 @@
 ---
 name: research-growth-academic-intelligence
-description: Run a repeatable academic growth and research-intelligence workflow that combines methods learning, paper deep reading, literature monitoring, evidence gating, contradiction search, anti-filter-bubble coverage, and research-output mapping.
+description: 运行可复用的“研究成长与学术情报”工作流，结合方法学习、论文精读、学术监测、证据核验、反证搜索、信息茧房控制与成果映射。
 ---
 
-# Research Growth & Academic Intelligence
+# 研究成长与学术情报 Skill
 
-Use this skill when a user wants a recurring or on-demand academic intelligence workflow rather than a one-off literature search. This directory is a portable workflow definition; actual Skill installation, discovery, scheduling, connected-app access, and synchronization depend on the host product and workspace.
+当用户需要**长期、周期性或按需运行的学术情报工作流**，而不是一次性的“帮我搜几篇论文”时，使用这个 Skill。
 
-## Required setup
+> 这个目录定义的是“怎么做”的工作流。  
+> 是否支持安装、自动发现、定时运行、连接应用或同步，取决于你当前使用的 Codex / ChatGPT / API / Agent 环境。
 
-Before first use, obtain or infer only from explicit user-provided context:
+---
 
-1. Research stage and current project.
-2. Frozen research boundaries that should not be casually changed.
-3. Up to three future output/research directions.
-4. Preferred academic ecosystem: local/Chinese, international/English, other language/region sources, or a user-defined mix.
-5. Anti-filter-bubble / adjacent fields.
-6. Time budget and output cadence.
-7. Delivery preferences.
-8. Explicit feedback rules.
+## 给 Codex 的直接使用指令
 
-If these are missing, use `references/PERSONALIZATION_SCHEMA.md`. Do not force a fixed Chinese/English ratio; source coverage should follow the user's discipline and research question.
+如果你是使用者，不想自己研究怎么配置，可以直接把下面整段复制给 Codex：
 
-## Operating modes
+```text
+请读取这个 GitHub 仓库：
 
-### Monday: Methods & capability
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
 
-Teach one durable concept or technical skill.
-Do not optimize for novelty.
-Use one core reading and one short exercise.
+我要使用其中的“研究成长与学术情报”Skill。
 
-### Wednesday: Paper deep reading
+请重点读取：
+- skill/SKILL.md
+- skill/references/PERSONALIZATION_SCHEMA.md
+- skill/references/SOURCE_POLICY.md
+- skill/templates/OUTPUT_TEMPLATES.md
+- 00_BEGINNER_SETUP.md
 
-Analyze one paper.
-Focus on why it can stand as an independent paper:
-research question, data, unit of analysis, design, core finding, scope exclusions, and paper structure.
+请先判断你当前环境是否支持直接安装、调用或引用这个 Skill。
 
-Always label access status:
-- full text checked
-- abstract only
-- metadata only
-- inference
+如果支持：
+1. 不要立刻改文件；
+2. 先一次只问我一个问题完成个性化配置；
+3. 我不懂时给我2—3个例子或选项；
+4. 不要替我编造研究信息；
+5. 学术生态按我的学科决定，不机械要求中英文50:50；
+6. 保留证据核验、反证搜索、去重、信息茧房审计等核心规则；
+7. 先给我“个性化 Skill 配置摘要”；
+8. 等我确认后，再执行安装、修改或调用。
 
-### Friday: Research intelligence
+如果不支持直接安装：
+请告诉我最少需要怎么做，不要假装已经安装成功。
+```
 
-Run:
+---
 
-1. Candidate discovery
-2. Perspective expansion
-3. Deduplication
-4. Relevance screening
-5. Evidence retrieval
-6. Claim–evidence gate
-7. Contradiction search
-8. Novelty/history check
-9. Contribution mapping
+## 首次使用前必须获得的配置
 
-Use `references/SOURCE_POLICY.md`.
+只从用户明确提供的信息中获取：
 
-## Core safeguards
+1. **用户阶段与当前项目**
+2. **已经稳定、不应被每周新论文轻易改变的研究边界**
+3. **最多三个未来成果 / 研究方向**
+4. **学术生态策略**：中文/本地、国际/英文、其他语言地区，或自定义组合
+5. **防信息茧房的邻近领域**
+6. **时间预算与输出频率**
+7. **交付偏好**
+8. **用户明确的反馈规则**
 
-- Discovery source is not automatically evidence source.
-- Never present a search snippet as a checked full-text result.
-- Distinguish correlation/change from causality.
-- Distinguish immediate performance from learning/retention/transfer.
-- Do not recommend changing a stable research design unless new evidence directly challenges a core measurement, operationalization, task, coding, analysis, or interpretation boundary.
-- Allow zero high-value papers in a week.
-- Do not pad output to hit a quota.
-- Include at most one outside-the-core item per weekly digest.
-- Search for meaningful contradictory/null/methodological evidence.
-- Use explicit user feedback to calibrate future prioritization; do not infer mastery from silence.
+缺失时，使用 `references/PERSONALIZATION_SCHEMA.md`。
 
-## Output
+不要机械要求固定的中英文比例。来源结构应服从用户的学科、研究问题和实际信息生态。
 
-Use `templates/OUTPUT_TEMPLATES.md`.
+---
 
-## Scope boundary
+## 运行模式
 
-This skill is not, by itself, a reproducible systematic-review protocol and does not guarantee database coverage. Do not describe its output as a systematic review unless the user separately defines and records the required search, screening, deduplication, and reporting protocol.
+### 周一｜方法与能力
 
-## Privacy
+每次只讲一个长期可复用的方法或技术能力。
 
-Do not include private email addresses, account identifiers, unpublished data, or sensitive personal context in a public/shared version of this skill.
+不要为了“新”而追逐资讯。
 
-## Maintenance
+建议包含：
 
-After 2–4 weeks of real use, run a Gate-6 audit before making large changes.
+1. 为什么现在值得学
+2. 核心概念
+3. 放进用户研究中的例子
+4. 能回答什么 / 不能回答什么
+5. 1 份核心阅读
+6. 1 个 10–20 分钟练习
+
+---
+
+### 周三｜研究与发表精读
+
+每次只分析一篇论文。
+
+重点回答：
+
+> **为什么这篇研究能够成为一篇独立论文？**
+
+至少分析：
+
+- 研究问题
+- 数据
+- 样本
+- 分析单位
+- 研究设计
+- 核心发现
+- 主动没有研究什么
+- 论文结构
+- 与用户当前研究或成果池的关系
+- 哪些地方不能直接照搬
+
+必须标记证据访问状态：
+
+- 【正文已核】
+- 【仅摘要】
+- 【仅元数据】
+- 【推测】
+
+---
+
+### 周五｜学术情报
+
+依次执行：
+
+1. 候选发现
+2. 多视角扩展
+3. 去重与版本归一
+4. 相关性筛选
+5. 证据获取
+6. Claim–Evidence Gate
+7. 反证搜索
+8. 历史 / 知识重复检查
+9. 成果用途映射
+
+来源与证据规则见：
+
+`references/SOURCE_POLICY.md`
+
+---
+
+## 核心质量规则
+
+- 发现源不自动等于证据源。
+- 不得把搜索摘要写成“已核实全文”。
+- 区分“相关 / 变化”和“因果”。
+- 区分即时表现、学习、保持、迁移和长期习得。
+- 当前研究已经稳定时，不得因为单篇新论文轻易建议重构。
+- 允许一周 0 篇真正值得推送的新论文。
+- 不得为了凑数量降低标准。
+- 每周跨出核心主题的内容原则上最多 1 项。
+- 主动寻找高质量 null / negative / methodological criticism / boundary evidence。
+- 只根据用户的明确反馈调整推荐权重，不从沉默推断“已掌握”。
+
+---
+
+## 输出模板
+
+使用：
+
+`templates/OUTPUT_TEMPLATES.md`
+
+---
+
+## 能力边界
+
+这个 Skill 本身**不是可复现的系统综述协议**，也不保证数据库覆盖完整。
+
+除非用户另外定义并记录：
+
+- 数据库范围
+- 完整检索式
+- 纳排标准
+- 筛选记录
+- 去重规则
+- 报告规范
+
+否则不得把输出描述为“系统综述”。
+
+---
+
+## 隐私
+
+公开或共享版本中不要写入：
+
+- 私人邮箱
+- 账号 ID
+- 凭据
+- 未公开研究数据
+- 参与者信息
+- 敏感个人信息
+- 私人文件链接
+
+---
+
+## 维护
+
+真实运行 **2–4 周** 后，再做 Gate 6 审计。
+
+不要在没有真实使用证据的情况下频繁重构 Skill。
