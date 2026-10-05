@@ -19,10 +19,29 @@
 
 ## **我是哪类用户？先选你的入口**
 
-| **我是 ChatGPT 用户** | **我是 Codex / Skill 用户** | **我是其他 AI / WorkBuddy 用户** |
-|---|---|---|
-| 想直接做个性化配置、创建 Scheduled Task、接收周期推送 | 想把这套工作流作为可版本管理的 Skill / Agent 工作流使用 | 使用 Claude、Gemini、WorkBuddy 或其他 AI / 深度研究代理 |
-| **[→ 点这里：ChatGPT 零基础配置](00_BEGINNER_SETUP.md)** | **[→ 点这里：Codex / Skill 起点](skill/SKILL.md)** | **[→ 点这里：跨平台适配指南](06_CROSS_PLATFORM_ADAPTATION.md)** |
+<table>
+<tr>
+<td align="center" width="33%">
+<strong>我是 ChatGPT 用户</strong><br><br>
+想做个性化配置、创建 Scheduled Task、接收周期推送<br><br>
+<a href="00_BEGINNER_SETUP.md"><strong>→ ChatGPT / 零基础配置</strong></a>
+</td>
+<td align="center" width="33%">
+<strong>我是 Codex / Skill 用户</strong><br><br>
+想把工作流做成可版本管理、可复用的 Skill / Agent 协议<br><br>
+<a href="skill/SKILL.md"><strong>→ Codex / Skill 起点</strong></a>
+</td>
+<td align="center" width="33%">
+<strong>我是其他 AI / WorkBuddy 用户</strong><br><br>
+使用 Claude、Gemini、WorkBuddy 或其他 AI / 深度研究代理<br><br>
+<a href="06_CROSS_PLATFORM_ADAPTATION.md"><strong>→ 跨平台适配指南</strong></a>
+</td>
+</tr>
+</table>
+
+### **60 秒开始**
+
+**选入口 → 把仓库交给你的 AI / AI Agent → 让它逐问逐答完成配置 → 你确认 → 再部署。**
 
 ---
 
