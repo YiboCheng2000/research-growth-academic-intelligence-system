@@ -23,7 +23,7 @@
 
 > **这套系统的目标不是让你“每周多读几篇论文”，而是把有限的阅读时间持续转化为研究判断、方法能力、论文素材与学术机会。**
 
-> ### **第一次使用？不要先改 Prompt。**
+> ### **第一次使用？不要先改提示词（Prompt）。**
 > **→ [点这里看 00｜零基础配置指南](00_BEGINNER_SETUP.md)**  
 > 它会教你把仓库交给 **ChatGPT 或其他 AI / AI Agent**，让它 **一次只问一个问题 → 自动生成个性化配置 → 自动填好模板 → 帮你部署**。
 
@@ -149,7 +149,8 @@ Research Growth & Academic Intelligence System
 
 ---
 
-## **05｜设计上借鉴了哪些公开成果？**
+<details>
+<summary><strong>05｜设计参考：借鉴了哪些公开成果？</strong></summary>
 
 本项目**没有复制这些项目的代码**，而是借鉴其公开工作流思想：
 
@@ -163,6 +164,8 @@ Research Growth & Academic Intelligence System
 
 详见 [`08_DESIGN_REFERENCES.md`](08_DESIGN_REFERENCES.md) 与 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
 
+</details>
+
 ---
 
 ## **06｜怎么个性化？**
@@ -171,7 +174,7 @@ Research Growth & Academic Intelligence System
 
 你只需要把仓库链接或配置文件交给你正在使用的 AI，然后让它：
 
-**逐问逐答了解你 → 生成配置摘要 → 你确认 → 自动填模板 → 检查占位符 → 按平台部署。**
+**逐问逐答了解你 → 生成配置摘要 → 你确认 → 自动填好模板 → 检查占位符 → 按平台部署。**
 
 <details>
 <summary><strong>不会配置？展开并复制这段给你的 AI / AI Agent</strong></summary>
@@ -335,7 +338,7 @@ skill/
 
 ---
 
-## **10｜License**
+## **10｜许可证（License）**
 
 除非文件另有说明，本仓库原创文档、提示词、模板和 Skill 指令采用 **CC BY 4.0**。详见 [`LICENSE`](LICENSE) 和 [`ATTRIBUTION.md`](ATTRIBUTION.md)。第三方名称、商标、链接资源和上游材料仍受其各自权利与许可证约束，详见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md)。
 
