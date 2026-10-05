@@ -11,6 +11,16 @@
 
 </div>
 
+<p align="center">
+  <strong>
+    <a href="00_BEGINNER_SETUP.md">零基础开始</a> ·
+    <a href="02_QUICK_START_CHATGPT.md">ChatGPT</a> ·
+    <a href="skill/SKILL.md">Codex / Skill</a> ·
+    <a href="06_CROSS_PLATFORM_ADAPTATION.md">其他 AI / WorkBuddy</a> ·
+    <a href="07_GATE6_AUDIT_PROTOCOL.md">Gate 6 审计</a>
+  </strong>
+</p>
+
 > **这套系统的目标不是让你“每周多读几篇论文”，而是把有限的阅读时间持续转化为研究判断、方法能力、论文素材与学术机会。**
 
 > ### **第一次使用？不要先改 Prompt。**
@@ -86,11 +96,11 @@ Research Growth & Academic Intelligence System
 这套系统专门处理更长期的六个问题：
 
 1. **信息太多，真正值得读的太少**：先建立候选池，再去重、筛选、核验证据，只保留少量高价值内容。
-2. **长期追踪容易形成信息茧房**：固定加入反证、方法挑战和 `Outside the thesis` 视角。
+2. **长期追踪容易形成信息茧房**：固定加入反证、方法挑战和 `研究外拓（Outside the thesis）` 视角。
 3. **读了很多论文，却没有形成研究能力**：把一周拆成“方法学习—论文精读—学术情报”，避免三次都只是摘要。
 4. **新论文不断出现，研究方案容易被带着跑**：设置“研究变化闸门”，只有新证据真正挑战操作化、测量、编码或解释边界时才建议复核。
 5. **收藏越来越多，却难以转化为成果**：把重要材料映射到“理论依据、研究缺口、操作化、编码方法、分析方法、Discussion、反证/边界”等用途。
-6. **AI 容易把“找到”误写成“读过”，把“相关”误写成“证据”**：使用 Evidence Status 与 Claim–Evidence Gate，强制说明证据访问状态与结论边界。
+6. **AI 容易把“找到”误写成“读过”，把“相关”误写成“证据”**：使用 证据状态（Evidence Status） 与 主张—证据核验（Claim–Evidence Gate），强制说明证据访问状态与结论边界。
 
 ---
 
@@ -102,7 +112,7 @@ Research Growth & Academic Intelligence System
 
 **默认逻辑：**
 
-> **研究锚点 → 候选发现 → 多视角扩展 → 去重归一 → 价值筛选 → 证据获取 → Claim–Evidence Gate → 反证搜索 → 历史查重 → 成果映射 → 周期输出 → 用户反馈 → 下一轮校准**
+> **研究锚点 → 候选发现 → 多视角扩展 → 去重归一 → 价值筛选 → 证据获取 → 主张—证据核验（Claim–Evidence Gate） → 反证搜索 → 历史查重 → 成果映射 → 周期输出 → 用户反馈 → 下一轮校准**
 
 ### **默认一周三次运行**
 
@@ -217,11 +227,11 @@ F. 根据我使用的平台给出部署方式。
 
 | **改成你自己的** | **新手先保留** |
 |---|---|
-| 研究题目 / 核心问题 | Claim–Evidence Gate |
-| 已稳定的研究边界 | Contradiction Search |
-| 后续成果 / 能力方向 | Evidence Status |
+| 研究题目 / 核心问题 | 主张—证据核验（Claim–Evidence Gate） |
+| 已稳定的研究边界 | 反证搜索（Contradiction Search） |
+| 后续成果 / 能力方向 | 证据状态（Evidence Status） |
 | 学术生态与来源池 | 文献去重 |
-| 方法与技能学习方向 | Outside the thesis |
+| 方法与技能学习方向 | 研究外拓（Outside the thesis） |
 | 时间预算与推送方式 | 每月信息覆盖审计 |
 | 使用平台及可用工具 | “相关 ≠ 因果”“宁缺毋滥”等边界规则 |
 
@@ -292,7 +302,7 @@ skill/
 **→ [跨平台适配指南](06_CROSS_PLATFORM_ADAPTATION.md)**
 
 > 真正需要迁移的不是某一个模型，而是：  
-> **来源覆盖透明 / 发现源与证据源分离 / Claim–Evidence Gate / 反证搜索 / 去重 / 成果映射 / 用户反馈校准 / 信息茧房审计**
+> **来源覆盖透明 / 发现源与证据源分离 / 主张—证据核验（Claim–Evidence Gate） / 反证搜索 / 去重 / 成果映射 / 用户反馈校准 / 信息茧房审计**
 
 ---
 
