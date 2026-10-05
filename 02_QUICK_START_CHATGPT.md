@@ -11,7 +11,20 @@
 直接复制：
 
 ```text
-我想配置“Research Growth & Academic Intelligence System”。
+我想配置这个 GitHub 项目：
+
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
+项目名称：
+Research Growth & Academic Intelligence System
+
+如果你能直接读取 GitHub，请先读取这个仓库中的：
+README.md、00_BEGINNER_SETUP.md、
+03_CHATGPT_AUTOMATION_PROMPT_TEMPLATE.md、
+04_PERSONALIZATION_WORKSHEET.md、
+05_SOURCE_AND_EVIDENCE_POLICY.md。
+
+如果你不能读取 GitHub，请告诉我最少需要上传哪些文件。
 
 请一次只问我一个问题，帮我完成个性化配置。
 如果我不知道怎么回答，请给我简单例子。
@@ -35,6 +48,9 @@
 一起交给 ChatGPT，然后说：
 
 ```text
+原始仓库：
+https://github.com/YiboCheng2000/research-growth-academic-intelligence-system
+
 请根据我的个性化配置表自动填写模板。
 
 要求：
