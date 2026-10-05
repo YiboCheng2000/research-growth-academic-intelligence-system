@@ -6,7 +6,7 @@
 
 **证据核验 · 反证搜索 · 成果映射 · 个性化校准**
 
-[![Release](https://img.shields.io/badge/release-v1.0.0-blue)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-v1.0.0-blue)](CHANGELOG.md)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 
 </div>
